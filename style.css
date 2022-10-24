@@ -67,3 +67,17 @@ body {
     font-size: 20px;
     border-radius: 50%;
 }
+
+#equation {
+    margin-top: 20px;
+    padding-inline: 20px;
+    text-align: right;
+    width: 100%;
+    min-height: 28.8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: var(--text-color);
+    font-size: 25px;
+    letter-spacing: 2px;
+}
