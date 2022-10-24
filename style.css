@@ -8,3 +8,33 @@
 button {
     cursor: pointer;
 }
+
+.light {
+    --text-color: #fff;
+    --body-bg: #6ea0f6;
+    --container-bg: rgba(166, 193, 241, 0.301);
+    --btn-hover:rgba(0, 0, 0, 0.125);
+    --btn-dark:rgba(255, 255, 255, 0.5);
+    --btn-dark-hover:(0, 0, 0, 0.5);
+}
+
+.dark {
+    --text-color: #fff;
+    --body-bg: #111927;
+    --container-bg: rgba(17, 25, 40, 0.75);
+    --btn-hover: rgba(255, 255, 255, 0.75);
+    --btn-dark: rgba(0, 0, 0, 0.5);
+    --btn-dark-hover: rgba(255, 255, 255, 0.125);
+}
+
+body {
+
+}
+
+.container {
+
+}
+
+#theme_toggler {
+    
+}
