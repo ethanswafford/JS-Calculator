@@ -141,5 +141,7 @@ td {
         flex-direction: column;
     }
 
-    
+    #equation {
+        margin-top: 70px;
+    }
 }
