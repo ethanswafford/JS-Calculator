@@ -81,3 +81,11 @@ body {
     font-size: 25px;
     letter-spacing: 2px;
 }
+
+#result {
+    padding-inline: 20px;
+    text-align: right;
+    width: 100%;
+    color: var(--text-color);
+    font-size: 30px;
+}
