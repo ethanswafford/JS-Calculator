@@ -111,3 +111,35 @@ td {
     background: transparent;
 }
 
+.btn:hover {
+    background: var(--btn-hover);
+}
+
+.sign {
+    background: var(--btn-dark);
+}
+
+.sign:hover {
+    background: var(--btn-dark-hover);
+}
+
+@media screen and (max-width: 380px) {
+    td {
+        width: 85px;
+    }
+
+    .btn {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .container {
+        max-width: 450px;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
