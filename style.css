@@ -28,13 +28,22 @@ button {
 }
 
 body {
-
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: var(--body-bg);
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(219.31, 66%, 43%) 0, transparent 55%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
 }
 
 .container {
-
+    
 }
 
 #theme_toggler {
-    
+
 }
